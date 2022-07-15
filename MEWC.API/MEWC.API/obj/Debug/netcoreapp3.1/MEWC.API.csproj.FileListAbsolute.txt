@@ -59,3 +59,8 @@ D:\Projects\MEWC\MEWC\MEWC.API\MEWC.API\obj\Debug\netcoreapp3.1\MEWC.API.csproj.
 D:\Projects\MEWC\MEWC\MEWC.API\MEWC.API\obj\Debug\netcoreapp3.1\MEWC.API.dll
 D:\Projects\MEWC\MEWC\MEWC.API\MEWC.API\obj\Debug\netcoreapp3.1\MEWC.API.pdb
 D:\Projects\MEWC\MEWC\MEWC.API\MEWC.API\obj\Debug\netcoreapp3.1\MEWC.API.genruntimeconfig.cache
+D:\Projects\MEWC\MEWC\MEWC.API\MEWC.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Projects\MEWC\MEWC\MEWC.API\MEWC.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Projects\MEWC\MEWC\MEWC.API\MEWC.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Projects\MEWC\MEWC\MEWC.API\MEWC.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Projects\MEWC\MEWC\MEWC.API\MEWC.API\obj\Debug\netcoreapp3.1\MEWC.API.MvcApplicationPartsAssemblyInfo.cs
