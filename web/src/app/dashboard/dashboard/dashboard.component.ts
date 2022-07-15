@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, OnChanges, OnInit, SimpleChanges, ViewEncapsulation } from '@angular/core';
 declare var $: any;  
 
 @Component({
@@ -6,9 +6,18 @@ declare var $: any;
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.scss']
 })
-export class DashboardComponent implements OnInit {
+export class DashboardComponent implements OnInit,OnChanges {
+
+  ismaxwindow: boolean = true;
 
   constructor() { }
+
+
+  ngOnChanges(changes: SimpleChanges): void {
+    if($( window ).width() < 900){
+      //this.ismaxwindow=false;
+    }
+  }
 
   name = 'Jquery Integration With Angular!';  
   isJqueryWorking: any;  
@@ -17,10 +26,14 @@ export class DashboardComponent implements OnInit {
   {   
     
       $('#sidebarCollapse').on('click', function () {
-        $('#sidebar').toggleClass('active'); 
+        console.log($( window ).width());
+        if($( window ).width() < 900)
+        $('#sidebar').toggleClass('active');
       });
+
       $('.dropdown-toggle').dropdown()
   }
+
 
     
 }

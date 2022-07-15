@@ -68,16 +68,23 @@ h1, h2, h3, h4, h5,
 //SIDEBAR
 .wrapper {
   width: 100%;
+  
 }
+
+html {
+    height: 100%;
+}
+
 
 #sidebar {
 	z-index: 2222;
   min-width: 200px;
+  min-height: 100vh;
   max-width: 200px;
   background: $primary;
   color: #fff;
   transition: all 0.3s;
-  position:absolute;
+  position:Fixed;
   .h6{
   	color: $white;
   }
@@ -256,13 +263,10 @@ a[data-toggle="collapse"] {
 		background: lighten($primary,5%);
 	}
 }
-
-@media screen and (min-width: 750px) {
-	#sidebar {
-	  z-index: 2222;
-	  position:relative;
-	}
+.bodyPading{
+	padding-left: 1em;
 }
+
 .dropdown-menu{
 	opacity: 100%;
 	background-color: $primary;
@@ -271,4 +275,20 @@ a[data-toggle="collapse"] {
 }
 .dropdown-item:hover{
 	background-color: $primary;
+}
+.maxwindow{
+	z-index:2221 ;
+}
+
+@media screen and (min-width: 900px) {
+	#sidebar {
+	  z-index: 2222;
+	  position:relative;
+	}
+	.bodyPading{
+		padding-left: 5em;
+	}
+	.maxwindow{
+		display: none;
+	}
 }
